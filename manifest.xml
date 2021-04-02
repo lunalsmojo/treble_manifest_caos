@@ -39,8 +39,8 @@
   
   
 <remote name="pixel3" fetch="https://source.codeaurora.org/quic/la/device/google/" />
-  <project path="device/google/crosshatch" name="crosshatch" remote="pixel3" revision="android10-qpr3-release" />
-  <project path="device/google/crosshatch-sepolicy" name="crosshatch-sepolicy" remote="pixel3" revision="android10-qpr3-release" />
-  <project path="device/google/crosshatch-kernel" name="crosshatch-kernel" remote="pixel3" revision="android10-qpr3-release" />
+  <project path="device/google/crosshatch" name="crosshatch" remote="pixel3" revision="android-security-10.0.0_r52" />
+  <project path="device/google/crosshatch-sepolicy" name="crosshatch-sepolicy" remote="pixel3" revision="android-security-10.0.0_r52" />
+  <project path="device/google/crosshatch-kernel" name="crosshatch-kernel" remote="pixel3" revision="android-security-10.0.0_r52" />
 
 </manifest>
