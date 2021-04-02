@@ -38,12 +38,13 @@
 <project path="external/arsenal-fonts" name="external_arsenal-fonts_caos" remote="caos" revision="master" />
   
   
-<remote name="pixel3" fetch="https://source.codeaurora.org/quic/la/device/google/" />
-  <project path="device/google/crosshatch" name="crosshatch" remote="pixel3" revision="android-security-10.0.0_r52" />
-  <project path="device/google/crosshatch-sepolicy" name="crosshatch-sepolicy" remote="pixel3" revision="android-security-10.0.0_r52" />
-  <project path="device/google/crosshatch-kernel" name="crosshatch-kernel" remote="pixel3" revision="android-security-10.0.0_r52" />
-  <project path="device/google/coral" name="coral" remote="pixel3" revision="android-10.0.0_r45" />
-  <project path="device/google/coral-sepolicy" name="coral-sepolicy" remote="pixel3" revision="android-10.0.0_r45" />
-  <project path="device/google/coral-kernel" name="coral-kernel" remote="pixel3" revision="android-10.0.0_r45" />
-
+<project fetch="https://source.codeaurora.org/quic/la/device/google/crosshatch" path="device/google/crosshatch" revision="android-security-10.0.0_r52" />
+<project fetch="https://source.codeaurora.org/quic/la/device/google/crosshatch-kernel" path="device/google/crosshatch-kernel" revision="android-security-10.0.0_r52" />
+<project fetch="https://source.codeaurora.org/quic/la/device/google/crosshatch-sepolicy" path="device/google/crosshatch-sepolicy" revision="android-security-10.0.0_r52" />
+<project fetch="https://source.codeaurora.org/quic/la/device/google/coral" path="device/google/coral" revision="android-10.0.0_r45" />
+<project fetch="https://source.codeaurora.org/quic/la/device/google/coral-sepolicy" path="device/google/coral-sepolicy" revision="android-10.0.0_r45" />
+<project fetch="https://source.codeaurora.org/quic/la/device/google/coral-kernel" path="device/google/coral-kernel" revision="android-10.0.0_r45" />
+  
+  
+  
 </manifest>
