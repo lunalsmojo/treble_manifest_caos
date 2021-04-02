@@ -42,5 +42,8 @@
   <project path="device/google/crosshatch" name="crosshatch" remote="pixel3" revision="android-security-10.0.0_r52" />
   <project path="device/google/crosshatch-sepolicy" name="crosshatch-sepolicy" remote="pixel3" revision="android-security-10.0.0_r52" />
   <project path="device/google/crosshatch-kernel" name="crosshatch-kernel" remote="pixel3" revision="android-security-10.0.0_r52" />
+  <project path="device/google/coral" name="coral" remote="pixel3" revision="android-10.0.0_r45" />
+  <project path="device/google/coral-sepolicy" name="coral-sepolicy" remote="pixel3" revision="android-10.0.0_r45" />
+  <project path="device/google/coral-kernel" name="coral-kernel" remote="pixel3" revision="android-10.0.0_r45" />
 
 </manifest>
