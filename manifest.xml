@@ -36,5 +36,11 @@
 <project path="external/cormorantinfant-fonts" name="external_cormorantinfant-fonts_caos" remote="caos" revision="master" />
 <project path="external/gabriela-fonts" name="external_gabriela-fonts_caos" remote="caos" revision="master" />
 <project path="external/arsenal-fonts" name="external_arsenal-fonts_caos" remote="caos" revision="master" />
+  
+  
+<remote name="pixel3" fetch="https://source.codeaurora.org/quic/la/device/google/" />
+  <project path="device/google/crosshatch" name="crosshatch" remote="pixel3" revision="android10-qpr3-release" />
+  <project path="device/google/crosshatch-sepolicy" name="crosshatch-sepolicy" remote="pixel3" revision="android10-qpr3-release" />
+  <project path="device/google/crosshatch-kernel" name="crosshatch-kernel" remote="pixel3" revision="android10-qpr3-release" />
 
 </manifest>
